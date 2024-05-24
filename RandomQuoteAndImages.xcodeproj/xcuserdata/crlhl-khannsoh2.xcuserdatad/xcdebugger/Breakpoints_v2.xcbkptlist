@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9FF18C5A-7D6D-481B-A656-AB84546C7A7A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7210C67-8446-4310-A675-668BE136E489"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RandomQuoteAndImages/Services/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getQoute()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7210C67-8446-4310-A675-668BE136E489 - f5e80aa8e56b09dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RandomQuoteAndImages.WebService.getQoute() async throws -&gt; RandomQuoteAndImages.QouteModel"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "649">
+               </Location>
+               <Location
+                  uuid = "C7210C67-8446-4310-A675-668BE136E489 - f5e80aa8e56b09dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RandomQuoteAndImages.WebService.getQoute() async throws -&gt; RandomQuoteAndImages.QouteModel"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "677">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B30D7F1C-F79D-45C9-9E65-38D02B49E335"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RandomQuoteAndImages/Services/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E2A17CF-08E0-4794-A654-41619B1AC5AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RandomQuoteAndImages/Views/RandomQuoteListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9E2A17CF-08E0-4794-A654-41619B1AC5AD - 9e7f585e7c1bc364"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt; in closure #1 (RandomQuoteAndImages.RandomQuoteAndImageViewModel) -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt; in RandomQuoteAndImages.RandomQuoteListView.body.getter : some"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Views/RandomQuoteListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "9E2A17CF-08E0-4794-A654-41619B1AC5AD - 4ebdd0a357311457"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RandomQuoteAndImages.RandomQuoteAndImageViewModel) -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(trailing: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in RandomQuoteAndImages.RandomQuoteListView.body.getter : some"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Views/RandomQuoteListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  uuid = "9E2A17CF-08E0-4794-A654-41619B1AC5AD - 92c6353342152bea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt; in closure #1 (RandomQuoteAndImages.RandomQuoteAndImageViewModel) -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(trailing: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in RandomQuoteAndImages.RandomQuoteListView.body.getter : some"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Views/RandomQuoteListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  uuid = "9E2A17CF-08E0-4794-A654-41619B1AC5AD - 7d3a10923a8d79cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.HStack&lt;SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(trailing: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in RandomQuoteAndImages.RandomQuoteListView.body.getter : some"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Views/RandomQuoteListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "9E2A17CF-08E0-4794-A654-41619B1AC5AD - cb9aaf990d1ebde7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Text in closure #1 (Swift.String) -&gt; SwiftUI.HStack&lt;SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(trailing: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in RandomQuoteAndImages.RandomQuoteListView.body.getter : some"
+                  moduleName = "RandomQuoteAndImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/crlhl-khannsoh2/Documents/trainings-demo/AsyncAwait/RandomQuoteAndImages/RandomQuoteAndImages/Views/RandomQuoteListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A798A98-E1FD-460F-B799-4ED5732EA14A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RandomQuoteAndImages/ViewModels/RandomQuoteListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getRandomQoutesAndImageUsingAsynGroup(count:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

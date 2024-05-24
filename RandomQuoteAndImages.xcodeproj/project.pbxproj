@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CEBB6DFE2B4B06080016B367 /* RandomQuoteAndImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6DFD2B4B06080016B367 /* RandomQuoteAndImagesApp.swift */; };
-		CEBB6E002B4B06080016B367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6DFF2B4B06080016B367 /* ContentView.swift */; };
 		CEBB6E022B4B060A0016B367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB6E012B4B060A0016B367 /* Assets.xcassets */; };
 		CEBB6E052B4B060A0016B367 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB6E042B4B060A0016B367 /* Preview Assets.xcassets */; };
 		CEBB6E0F2B4B060A0016B367 /* RandomQuoteAndImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E0E2B4B060A0016B367 /* RandomQuoteAndImagesTests.swift */; };
 		CEBB6E192B4B060A0016B367 /* RandomQuoteAndImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E182B4B060A0016B367 /* RandomQuoteAndImagesUITests.swift */; };
 		CEBB6E1B2B4B060A0016B367 /* RandomQuoteAndImagesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E1A2B4B060A0016B367 /* RandomQuoteAndImagesUITestsLaunchTests.swift */; };
+		CEBB6E282B4B0DF40016B367 /* RandomQuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E272B4B0DF40016B367 /* RandomQuoteListView.swift */; };
+		CEBB6E2E2B4B0ED80016B367 /* RandomQuoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E2D2B4B0ED80016B367 /* RandomQuoteListViewModel.swift */; };
+		CEBB6E302B4B0FE10016B367 /* RandomQuoteAndImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E2F2B4B0FE10016B367 /* RandomQuoteAndImageModel.swift */; };
+		CEBB6E322B4B16470016B367 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6E312B4B16470016B367 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		CEBB6DFA2B4B06080016B367 /* RandomQuoteAndImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomQuoteAndImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB6DFD2B4B06080016B367 /* RandomQuoteAndImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteAndImagesApp.swift; sourceTree = "<group>"; };
-		CEBB6DFF2B4B06080016B367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEBB6E012B4B060A0016B367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBB6E042B4B060A0016B367 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEBB6E0A2B4B060A0016B367 /* RandomQuoteAndImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomQuoteAndImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		CEBB6E142B4B060A0016B367 /* RandomQuoteAndImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomQuoteAndImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB6E182B4B060A0016B367 /* RandomQuoteAndImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteAndImagesUITests.swift; sourceTree = "<group>"; };
 		CEBB6E1A2B4B060A0016B367 /* RandomQuoteAndImagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteAndImagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEBB6E272B4B0DF40016B367 /* RandomQuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteListView.swift; sourceTree = "<group>"; };
+		CEBB6E2D2B4B0ED80016B367 /* RandomQuoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteListViewModel.swift; sourceTree = "<group>"; };
+		CEBB6E2F2B4B0FE10016B367 /* RandomQuoteAndImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteAndImageModel.swift; sourceTree = "<group>"; };
+		CEBB6E312B4B16470016B367 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,11 @@
 		CEBB6DFC2B4B06080016B367 /* RandomQuoteAndImages */ = {
 			isa = PBXGroup;
 			children = (
+				CEBB6E2C2B4B0E3C0016B367 /* Services */,
+				CEBB6E2B2B4B0E250016B367 /* ViewModels */,
+				CEBB6E2A2B4B0E170016B367 /* Models */,
+				CEBB6E292B4B0E030016B367 /* Views */,
 				CEBB6DFD2B4B06080016B367 /* RandomQuoteAndImagesApp.swift */,
-				CEBB6DFF2B4B06080016B367 /* ContentView.swift */,
 				CEBB6E012B4B060A0016B367 /* Assets.xcassets */,
 				CEBB6E032B4B060A0016B367 /* Preview Content */,
 			);
@@ -125,6 +134,38 @@
 				CEBB6E1A2B4B060A0016B367 /* RandomQuoteAndImagesUITestsLaunchTests.swift */,
 			);
 			path = RandomQuoteAndImagesUITests;
+			sourceTree = "<group>";
+		};
+		CEBB6E292B4B0E030016B367 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB6E272B4B0DF40016B367 /* RandomQuoteListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEBB6E2A2B4B0E170016B367 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB6E2F2B4B0FE10016B367 /* RandomQuoteAndImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEBB6E2B2B4B0E250016B367 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB6E2D2B4B0ED80016B367 /* RandomQuoteListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEBB6E2C2B4B0E3C0016B367 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB6E312B4B16470016B367 /* WebService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBB6E002B4B06080016B367 /* ContentView.swift in Sources */,
+				CEBB6E322B4B16470016B367 /* WebService.swift in Sources */,
+				CEBB6E2E2B4B0ED80016B367 /* RandomQuoteListViewModel.swift in Sources */,
+				CEBB6E282B4B0DF40016B367 /* RandomQuoteListView.swift in Sources */,
+				CEBB6E302B4B0FE10016B367 /* RandomQuoteAndImageModel.swift in Sources */,
 				CEBB6DFE2B4B06080016B367 /* RandomQuoteAndImagesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
